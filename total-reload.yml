@@ -1,39 +1,43 @@
+---
 - name: Total Reload
   version: "2.0.1"
   slug: total-reload
-  
+
   # Linux version
   linux:
     runner: linux
     installer:
       - download:
-          url: "https://github.com/CGAleksey/Total-Reload/releases/download/v2.0.1/Total-Reload_v2.0.1_Linux_DEMO.zip"
+          url: >-
+            https://github.com/CGAleksey/Total-Reload/releases/download/v2.0.1/Total-Reload_v2.0.1_Linux_DEMO.zip
           filename: "total-reload-linux.zip"
       - extract:
           src: "total-reload-linux.zip"
           dst: "$GAMEDIR"
     game:
       exe: "$GAMEDIR/Total Reload.x86_64"
-  
+
   # Windows version
   windows:
     runner: windows
     installer:
       - download:
-          url: "https://github.com/CGAleksey/Total-Reload/releases/download/v2.0.1/Total-Reload_v2.0.1_Windows_.x64_DEMO.zip"
+          url: >-
+            https://github.com/CGAleksey/Total-Reload/releases/download/v2.0.1/Total-Reload_v2.0.1_Windows_.x64_DEMO.zip
           filename: "total-reload-windows.zip"
       - extract:
           src: "total-reload-windows.zip"
           dst: "$GAMEDIR"
     game:
       exe: "$GAMEDIR/Total Reload.exe"
-  
+
   # Mac version
   mac:
-    runner: darwin  # or another Mac runner
+    runner: darwin
     installer:
       - download:
-          url: "https://github.com/CGAleksey/Total-Reload/releases/download/v2.0.1/Total-Reload_v2.0.1_OSX_DEMO.zip"
+          url: >-
+            https://github.com/CGAleksey/Total-Reload/releases/download/v2.0.1/Total-Reload_v2.0.1_OSX_DEMO.zip
           filename: "total-reload-osx.zip"
       - extract:
           src: "total-reload-osx.zip"
