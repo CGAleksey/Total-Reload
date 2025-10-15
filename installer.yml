@@ -9,7 +9,7 @@
     installer:
       - download:
           url: >-
-            https://github.com/CGAleksey/Total-Reload/releases/download/v2.0.1/Total-Reload_v2.0.1_Linux_DEMO.zip
+            https://github.com/CGAleksey/Total-Reload/releases/download/v2.0.1/Total-Reload_Linux_DEMO.zip
           filename: "total-reload-linux.zip"
       - extract:
           src: "total-reload-linux.zip"
@@ -23,7 +23,7 @@
     installer:
       - download:
           url: >-
-            https://github.com/CGAleksey/Total-Reload/releases/download/v2.0.1/Total-Reload_v2.0.1_Windows_.x64_DEMO.zip
+            https://github.com/CGAleksey/Total-Reload/releases/download/v2.0.1/Total-Reload_Windows_.x64_DEMO.zip
           filename: "total-reload-windows.zip"
       - extract:
           src: "total-reload-windows.zip"
@@ -37,7 +37,7 @@
     installer:
       - download:
           url: >-
-            https://github.com/CGAleksey/Total-Reload/releases/download/v2.0.1/Total-Reload_v2.0.1_OSX_DEMO.zip
+            https://github.com/CGAleksey/Total-Reload/releases/download/v2.0.1/Total-Reload_OSX_DEMO.zip
           filename: "total-reload-osx.zip"
       - extract:
           src: "total-reload-osx.zip"
