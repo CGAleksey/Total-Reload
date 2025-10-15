@@ -4,7 +4,7 @@ Help Artificial Intelligence named HAWKING activate an incredible mechanism that
 
 ## One-Click Install via Lutris
 
-[![Install with Lutris](https://img.shields.io/badge/Install_with-Lutris-00B8FF.svg)](https://github.com/CGAleksey/Total-Reload/raw/main/total-reload.yml)
+[![Install with Lutris](https://img.shields.io/badge/Install_with-Lutris-00B8FF.svg)](https://github.com/CGAleksey/Total-Reload/raw/main/installer.yml)
 
 ### Installation methods:
 
@@ -14,10 +14,10 @@ Help Artificial Intelligence named HAWKING activate an incredible mechanism that
 - Lutris will automatically install the game
 
 **Method 2 - Manual:**
-- Copy this link: `https://github.com/CGAleksey/Total-Reload/raw/main/total-reload.yml`
+- Copy this link: `https://github.com/CGAleksey/Total-Reload/raw/main/installer.yml`
 - Open Lutris → Click "+" → "Install from a script"
 - Paste the link and click "Install"
 
 **Method 3 - Command line:**
 ```bash
-lutris -i https://github.com/CGAleksey/Total-Reload/raw/main/total-reload.yml
+lutris -i https://github.com/CGAleksey/Total-Reload/raw/main/installer.yml
